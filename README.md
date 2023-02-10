@@ -3,7 +3,7 @@ A collection of functions to help with realtime audio processing.
 
 Quite basic uses sounddevice for device input and output but any other audio device lib should work just fine.
 
-Clipper.py - Applies clipping to an audio signal with a settable threshold default is -3dB
+Clipper.py - Applies clipping to an audio signal with a settable threshold default is -3dB <br>
     :param input_audio: The input audio signal.
     :param threshold: Clipping threshold (default is -3 dB).
     :return: The clipped audio signal.
